@@ -1,0 +1,30 @@
+.nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav ul li {
+    list-style: none;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+.current a {
+    color: var(--primary-color) !important;
+}
